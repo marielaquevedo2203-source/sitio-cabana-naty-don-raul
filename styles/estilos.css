@@ -68,18 +68,17 @@ header {
 
 footer{
     color: #5d3a00;
-    text-align:right;
-    margin: 80px;
-    border-radius:800px;
-    width: 300px;
-    font-size: 40px;
-    font-family:"Algerian", sans-serif;
+    text-align: center;
+    margin: 40px auto;
+    font-size: 32px;
+    font-family: "Algerian", sans-serif;
+    max-width: 600px;
+   
 }
 ul a{
     text-decoration: none;
     color: black;
-    font-family:monospace
-
+    font-family:monospace;
 }
 
 body{
@@ -96,7 +95,7 @@ body{
     font-weight: bold;
     text-decoration: none;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    ransition: transform 0.2s ease, background-color 0.3s ease;
+    transition: transform 0.2s ease, background-color 0.3s ease;
    }
    
    .boton-naty:hover{
@@ -105,7 +104,7 @@ body{
     cursor: pointer;
 }
 
-   .titulo-conoceme{
+    .titulo-conoceme {
     color:  #4b2e2e;
     font-family:"Algerian", sans-serif;
     padding: 20px;
