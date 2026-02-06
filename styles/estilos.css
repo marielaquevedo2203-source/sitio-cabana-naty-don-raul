@@ -60,6 +60,7 @@ header {
     background-color:#fbe3d3;
     
  }
+
 .subtitulo{
     color:black;
     padding: 20px;
@@ -111,3 +112,15 @@ body{
     text-align:center;
    }
    
+#carouselCabanas,
+#carouselDeptos{
+  max-width: 450px;
+  margin: auto;
+}
+
+/* Fondo suave tipo hotel */
+section{
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 15px;
+}
