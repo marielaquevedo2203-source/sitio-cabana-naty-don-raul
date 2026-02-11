@@ -5,68 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🌿Cabaña Naty & Alojamiento Don Raúl🏡</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./styles/estilos.css">
 
-    
-    <meta property="og:title" content="Cabaña Naty & Alojamiento Don Raúl">
-    <meta property="og:description" content="Web oficial del alojamiento Don Raúl. Consultas y reservas.">
-    <meta property="og:image" content="https://raw.githubusercontent.com/marielaquevedo2203-source/sitio-cabana-naty-don-raul/master/assets/vista2.jpg">
-    <meta property="og:url" content="https://marielaquevedo2203-source.github.io/sitio-cabana-naty-don-raul/">
-    <meta property="og:type" content="website">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-info">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><strong>Cabaña Naty & Don Raúl</strong></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="menuPrincipal">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pages/conoceme.html">Conoceme</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pages/servicios-especiales.html">Servicios</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pages/reservas.html">Reservas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pages/ubicacion.html">Ubicación</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
     <header>
-      <h1 class="titulo-principal">Bienvenidos Cabaña Naty & Alojamiento Don Raúl</h1>
+      <h1>Bienvenidos Cabaña Naty & Alojamiento Don Raúl</h1>
       <p>Cabaña Naty un lugar rodeado de naturaleza,ideal para descansar.🌿✨</p>
       <p>Alojamiento Don Raúl tu espacio ideal para descansar y disfrutar🏡 </p>
-     </header> 
-     
+
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="./pages/reservas.html">Reservas</a></li>
+          <li><a href="./pages/conoceme.html"> Conóceme</a></li>
+          <li><a href="./pages/ubicacion.html">Ubicación</a></li>
+          <li><a href="./pages/servicios-especiales.html">Servicios Principales</a></li>
+        </ul>
+
+
+      </nav>
+
+    </header> 
+
+
+      <video src="video.mp4" controls autoplay loop width="500"></video>
+    
    <main>
-
-    <section class="inicio-section">
-
-       <!--video -->
-      <video class="inicio-video" controls autoplay muted loop>
-        <source src="assets/video.mp4" type="video/mp4">
-      </video>
-      
-      <!-- cabaña -->
       <section>
-      <h2 class="titulo-seccion">Cabaña</h2>
-      <p>Ubicada en un entorno natural, nuestra cabaña ofrece un espacio ideal para el descanso y la tranquilidad. Rodeada de verde, es perfecta para desconectarse y disfrutar.</p>
-      <p>Cuenta con piscina, parrilla, cocina equipada, wifi y estacionamiento privado.</p>
-      <p>Además, somos pet friendly 🐾, por lo que podés venir a disfrutar junto a tu mascota.</p>
+        <h2> Cabaña</h2>
         <article>
-          <img src="./assets/pileta.jpg" alt="pileta" class="img-fluid rounded">
+          <img src="./assets/pileta.jpg" alt="pileta">
            <img src="./assets/avista.jpg" alt="cabaña vista">
            <img src="./assets/vista2.jpg" alt="vista desde la cabaña">
            <img src="./assets/Jardin vista parrilla.jpeg" alt="vista Jardin">
@@ -74,16 +44,11 @@
            <img src="./assets/Habitacion.jpeg" alt="habitacion">
            <img src="./assets/Cocina cabaña.jpeg" alt="cocina">
            <img src="./assets/Cocina Cbañana 2.jpeg" alt="cocina comedor">
-           <img src="./assets/Vista espinillos.jpeg" alt="Vista espinillos Jardin" srcset="">
           
-           </article>
-           </section>
-
-           <!-- DEPARTAMENTOS -->
-           <section>
-            <h2 class="titulo-seccion">Departamentos</h2>
-            <p>Ubicados en la ciudad de San José, Entre Ríos, nuestros departamentos se encuentran a pocos metros del centro, lo que permite acceder fácilmente a comercios, restaurantes y atractivos turísticos de la zona.</p>
-            <p>Los alojamientos están totalmente equipados para brindar una estadía cómoda y funcional. Cuentan con cocina completa, aire acondicionado, wifi, televisión y todo lo necesario para que te sientas como en casa.</p>
+        </article>
+        <section>
+          <section>
+            <h2>Departamentos</h2>
 
             <article>
               <img src="./assets/Depto 1.jpg" alt="Fachada">
@@ -98,7 +63,6 @@
 
           <section class="departamentos">
 
-             <!-- servicios especiales-->
   <div class="servicios-cabaña">
     <div class="card">
       <h3>🏡 Cabaña Naty</h3>
@@ -126,15 +90,11 @@
       </ul>
     </div>
   </div>
-  </section>
-    </section>
+</section>
     </main>
-
 <footer>
-  <p>TE ESPERAMOS✨</p>
-  <a href="https://wa.me/5493447452336" class="whatsapp-float" target="_blank">
-  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
-</a>
+  <p>Te espemos✨</p>
+  <a href="https://poe.com/invite/1cf73715906444ae9c69c912f4d68e31" target="_blank" class="boton-naty"> Asistente virtual Natyasisten</a>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
