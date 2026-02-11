@@ -16,13 +16,26 @@ footer{
     font-family: $font-titulos;
     }
 
-    h1,h2,h3,h4,h5,h6 {
-    color: $color-marron;
-    background-color: $color-beige;
-    padding: 15px;
-    text-align:center;
-    font-family: $font-titulos;
-    font-size: $font-size-titulo;
+    .titulo-principal{
+      color: $color-marron;
+      background-color: $color-beige;
+      padding: 15px;
+      text-align: center;
+      font-family: $font-titulos;
+      font-size: $font-size-titulo;
+
+    }
+    .titulo-seccion {
+      color: $color-marron;
+      margin-bottom: 10px;
+      font-family: $font-titulos;
+      font-size: 24px;
+    }
+
+    .titulo-sub {
+      color: $color-marron;
+      font-family: $font-titulos;
+      font-size: 20px;
     }
 
     p{
@@ -50,7 +63,12 @@ h2 {
 }
 
 
-h2:hover {
-  transform: translateY(-5px) scale(1.05);
-  color: #7a4b2a;
+.titulo-seccion {
+  transition: transform 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px) scale(1.05);
+    color: #7a4b2a;
+  }
 }
+
