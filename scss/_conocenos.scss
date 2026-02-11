@@ -1,0 +1,38 @@
+@use "variables" as *;
+
+.conoceme-section {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.conoceme-section h2 {
+    font-family: $font-titulos;
+    color: $color-marron;
+    margin-bottom: 10px
+}
+
+.conoceme-section p {
+    font-family: $font-textos;
+    font-size: $font-size-parrafo;
+}
+
+#carouselCabanas,
+#carouselDeptos {
+    max-width: 600px;
+    margin: auto;
+    border-radius: $radius-general;
+    overflow: hidden;
+
+}
+
+.carousel-img {
+    height: 350px;
+    object-fit: cover;
+}
+
+.conoceme-section .btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: $radius-general;
+}

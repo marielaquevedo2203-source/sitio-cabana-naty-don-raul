@@ -1,0 +1,56 @@
+@use "variables" as *;
+
+footer{
+    background-image: $gradiente-dorado;
+    text-align: center;
+    margin: 40px auto;
+    font-size: 32px;
+    font-family: $font-titulos;
+    max-width: 600px;
+   
+}
+
+.subtitulo{
+    color: $color-subtitulo;
+    padding: 20px;
+    font-family: $font-titulos;
+    }
+
+    h1,h2,h3,h4,h5,h6 {
+    color: $color-marron;
+    background-color: $color-beige;
+    padding: 15px;
+    text-align:center;
+    font-family: $font-titulos;
+    font-size: $font-size-titulo;
+    }
+
+    p{
+    color: $color-subtitulo;
+    padding: 10px;
+    text-align:initial;
+    font-family: $font-textos;
+    font-size: $font-size-parrafo;
+    }
+
+    body{
+    background-color:$color-fondo;
+}
+
+.cube {  
+    width: 6rem;  
+    height: 6rem;  
+    position: relative;  
+    transform-style: preserve-3d;  
+    animation: rotateCube 5s infinite linear;  
+}
+
+h2 {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+h2:hover {
+  transform: translateY(-5px) scale(1.05);
+  color: #7a4b2a;
+}

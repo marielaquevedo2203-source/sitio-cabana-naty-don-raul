@@ -175,3 +175,10 @@ h2:hover {
   transform: translateY(-5px) scale(1.05);
   color: #7a4b2a;
 }
+.cube {  
+    width: 6rem;  
+    height: 6rem;  
+    position: relative;  
+    transform-style: preserve-3d;  
+    animation: rotateCube 5s infinite linear;  
+}

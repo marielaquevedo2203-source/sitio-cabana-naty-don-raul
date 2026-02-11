@@ -1,3 +1,9 @@
-head {
-    color: blueviolet;
-}
+@use "variables";
+@use "general";
+@use "servicios";
+@use "reservas";
+@use "conocenos";
+@use "inicio";
+@use "ubicacion";
+@use "whatsapp";
+@use "mediaqueries";
