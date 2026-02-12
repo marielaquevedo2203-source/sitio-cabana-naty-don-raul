@@ -18,7 +18,7 @@ header p{
     color: black;
     padding: 10px;
     text-align:initial;
-    font-family: "Poppins", sans-serif;
+    font-family:fantasy;
     font-size: 16px;   
 }
 
@@ -174,11 +174,4 @@ h2 {
 h2:hover {
   transform: translateY(-5px) scale(1.05);
   color: #7a4b2a;
-}
-.cube {  
-    width: 6rem;  
-    height: 6rem;  
-    position: relative;  
-    transform-style: preserve-3d;  
-    animation: rotateCube 5s infinite linear;  
 }
